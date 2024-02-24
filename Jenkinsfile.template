@@ -18,7 +18,9 @@ pipeline {
             steps {
                 echo "Testing.."
                 sh '''
-                echo "doing test stuff..
+                echo "chnaged jekinsfile.template now"
+                echo "added trigger pollSM"
+                echo "doing test stuff.."
                 '''
             }
         }
